@@ -1,0 +1,752 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1094855841653920}
+  m_IsPrefabAsset: 1
+--- !u!1 &1094855841653920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4954670190069144}
+  - component: {fileID: 114238902371941274}
+  m_Layer: 0
+  m_Name: DataController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4954670190069144
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094855841653920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 78.15247, y: 329.1394, z: -507.81793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114238902371941274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094855841653920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b810fe7370e51a4588f4f3f012a4fb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allRoundData:
+  - nombre: Ajuste y garantias
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 20
+    Preguntas:
+    - questionText: "\xBFPara qu\xE9 sirve el probador SB3?"
+      answers:
+      - isCorrect: 1
+        answerText: "Medir \xFAnicamente el amperaje en el acumulador"
+      - isCorrect: 0
+        answerText: Medir unicamente el amperaje en el acumulador
+      - isCorrect: 0
+        answerText: Medir la mitad del voltaje
+    - questionText: "De qu\xE9 manera se manejan las pruebas del SB3?"
+      answers:
+      - isCorrect: 1
+        answerText: "A la mitad del amperaje de la bater\xEDa"
+      - isCorrect: 0
+        answerText: El amperaje debe ser completo
+      - isCorrect: 0
+        answerText: No se deben hacer pruebas con el amperaje
+    - questionText: "\xBFDe qu\xE9 medida no debe bajar el amperaje del aprobador
+        SB3?"
+      answers:
+      - isCorrect: 1
+        answerText: 9.6VL
+      - isCorrect: 0
+        answerText: 8.5VL
+      - isCorrect: 0
+        answerText: 10VL
+    - questionText: "\xBFBater\xEDa que no retiene la carga o que la pierde en u corto
+        tiempo aun despu\xE9s de haber sido cargada?"
+      answers:
+      - isCorrect: 0
+        answerText: Defecto "Corto"
+      - isCorrect: 1
+        answerText: Defecto "Descargada"
+      - isCorrect: 0
+        answerText: Defecto "Abierta"
+    - questionText: "\xBFEs una de las causas del defecto \"Descargada\"?"
+      answers:
+      - isCorrect: 1
+        answerText: "Falta de formaci\xF3n"
+      - isCorrect: 0
+        answerText: Bandas apretadas
+      - isCorrect: 0
+        answerText: Alternador trabaja eficientemente
+    - questionText: "\xBFCom\xF3 saber que la bater\xEDa esta descargada?"
+      answers:
+      - isCorrect: 0
+        answerText: "Densidad de celdas con diferencia de m\xE1s de 50 puntos"
+      - isCorrect: 0
+        answerText: Voltaje arriba de los 12.70VL
+      - isCorrect: 1
+        answerText: Densidad en las celdas pareja pero menor a 1.270
+    - questionText: "\xBFCu\xE1l es el producto del contato entre la placa positiva
+        y la negativa?"
+      answers:
+      - isCorrect: 0
+        answerText: Defecto "Sobrecargada"
+      - isCorrect: 0
+        answerText: Defecto "Abierta"
+      - isCorrect: 1
+        answerText: Defecto "Corto"
+    - questionText: "\xBFCu\xE1l de las siguientes no es una causa de defecto \"Corto\"?"
+      answers:
+      - isCorrect: 0
+        answerText: "Separador roto por vibraci\xF3n"
+      - isCorrect: 1
+        answerText: Placas separadas
+      - isCorrect: 0
+        answerText: Placas dobladas
+    - questionText: "\xBFCu\xE1l de los siguientes es un s\xEDntoma de defecto \"Corto\"?"
+      answers:
+      - isCorrect: 0
+        answerText: "En la revisi\xF3n de las densidades de cada celda, notaremos
+          diferencia de menos de 10 puntos entre la celda m\xE1s alta y la m\xE1s
+          baja"
+      - isCorrect: 1
+        answerText: "En la revisi\xF3n de las densidades de cada celda, notaremos
+          diferencia de m\xE1s de 50 puntos entre la celda m\xE1s alta y la m\xE1s
+          baja"
+      - isCorrect: 0
+        answerText: Al hacer la prueba con el SB3 todas las celdas burbujean
+    - questionText: "\xBFBater\xEDa en la cual la serie positiva o negativa se ve
+        interrumpida?"
+      answers:
+      - isCorrect: 1
+        answerText: Defecto "Abierta"
+      - isCorrect: 0
+        answerText: Defecto "Corto"
+      - isCorrect: 0
+        answerText: Defecto "Sobrecargada"
+    - questionText: "\xBFCausas internas del defecto \"Abierta\"?"
+      answers:
+      - isCorrect: 0
+        answerText: Sobre incompleto
+      - isCorrect: 0
+        answerText: Placas dobladas
+      - isCorrect: 1
+        answerText: "Poste o uni\xF3n mal soldada"
+    - questionText: "\xBFCausas externas del defecto \"Abierta\""
+      answers:
+      - isCorrect: 0
+        answerText: Enfriamiento por marchas defectuosas
+      - isCorrect: 1
+        answerText: "Golpe y mala aplicaci\xF3n"
+      - isCorrect: 0
+        answerText: "Separador roto por vibraci\xF3n"
+    - questionText: "\xBFS\xEDntomas del defecto \"Abierta\"?"
+      answers:
+      - isCorrect: 0
+        answerText: Defecto sobrecarga
+      - isCorrect: 0
+        answerText: Falta de separador
+      - isCorrect: 1
+        answerText: No proporciona voltaje hacia la marcha
+    - questionText: "\xBFDe qu\xE9 material es el uniforme?"
+      answers:
+      - isCorrect: 0
+        answerText: "Algod\xF3n"
+      - isCorrect: 1
+        answerText: "Poli\xE9ster"
+      - isCorrect: 0
+        answerText: Tela mixta
+    - questionText: "\xBFQu\xE9 equipo de diagn\xF3stico se maneja?"
+      answers:
+      - isCorrect: 0
+        answerText: Probador anticongelante
+      - isCorrect: 0
+        answerText: "Esc\xE1ner"
+      - isCorrect: 1
+        answerText: "Hidr\xF3metro"
+    - questionText: "\xBFPara qu\xE9 sirve el SB3?"
+      answers:
+      - isCorrect: 1
+        answerText: "Equipo de diagn\xF3stico para bater\xEDas"
+      - isCorrect: 0
+        answerText: Nivelar el agua
+      - isCorrect: 0
+        answerText: Medir el voltaje
+    - questionText: "\xBFPara qu\xE9 sirve el bitroni?"
+      answers:
+      - isCorrect: 0
+        answerText: "Esc\xE1ner de voltaje"
+      - isCorrect: 1
+        answerText: "Equipo de diagn\xF3stico para bater\xEDa selladas"
+      - isCorrect: 0
+        answerText: "Lectura r\xE1pida"
+    - questionText: "\xBFDe qu\xE9 manera funcionan el volt\xEDmetro?"
+      answers:
+      - isCorrect: 0
+        answerText: Capacidad de aislamiento
+      - isCorrect: 0
+        answerText: "Indicar la tensi\xF3n y su fase"
+      - isCorrect: 1
+        answerText: "Digital para lectura r\xE1pida"
+    - questionText: "\xBFEquipo necesario para manejar los \xE1cidos de las bater\xEDas?"
+      answers:
+      - isCorrect: 0
+        answerText: Cubreboca
+      - isCorrect: 0
+        answerText: Botas y guantes
+      - isCorrect: 1
+        answerText: Lentes y guantes
+    - questionText: "\xBFC\xFAanto es el voltaje que da una conexi\xF3n en serie?"
+      answers:
+      - isCorrect: 0
+        answerText: 18v
+      - isCorrect: 1
+        answerText: 12v
+      - isCorrect: 0
+        answerText: 15v
+    - questionText: "\xBFC\xFAanto es el amperaje que da una conexi\xF3n en serie?"
+      answers:
+      - isCorrect: 1
+        answerText: Duplica el amperaje a 1500
+      - isCorrect: 0
+        answerText: 3600
+      - isCorrect: 0
+        answerText: 12500
+    - questionText: "\xBFQu\xE9 terminal se conecta primero para realizar la conexi\xF3n?"
+      answers:
+      - isCorrect: 0
+        answerText: No importa el orden
+      - isCorrect: 0
+        answerText: Terminal negativa
+      - isCorrect: 1
+        answerText: Terminales positivas
+    - questionText: "\xBFC\xFAantas bater\xEDas se necesitan para realizar una conexi\xF3n
+        en serie?"
+      answers:
+      - isCorrect: 0
+        answerText: 4
+      - isCorrect: 0
+        answerText: 3
+      - isCorrect: 0
+        answerText: 5
+    - questionText: "\xBFDe cu\xE1nto amperaje y voltaje debem ser las bater\xEDas
+        para poder hacer una conexi\xF3n en serie?"
+      answers:
+      - isCorrect: 0
+        answerText: '10v y 600 amp. '
+      - isCorrect: 0
+        answerText: 24v Y 750 amp.
+      - isCorrect: 1
+        answerText: '12v Y 750 amp. '
+    - questionText: "\xBFCu\xE1nto es el voltaje que da una conexi\xF3n en serie?"
+      answers:
+      - isCorrect: 1
+        answerText: 36v
+      - isCorrect: 0
+        answerText: 28
+      - isCorrect: 0
+        answerText: 14
+    - questionText: "\xBFCu\xE1l es la mejor bater\xEDa para ofrecer a tu cliente?"
+      answers:
+      - isCorrect: 1
+        answerText: Optima
+      - isCorrect: 0
+        answerText: Premium
+      - isCorrect: 0
+        answerText: Americana
+    - questionText: "\xBFQu\xE9 es lo primero que debes hacer al llegar al lugar?"
+      answers:
+      - isCorrect: 0
+        answerText: "Realizar cambio de bater\xEDa"
+      - isCorrect: 1
+        answerText: Saludar cordialmente al cliente
+      - isCorrect: 0
+        answerText: "Hacer diagn\xF3stico"
+    - questionText: "\xBFQu\xE9 es lo segundo que tienes que hacer?"
+      answers:
+      - isCorrect: 0
+        answerText: "recomendar una bater\xEDa"
+      - isCorrect: 1
+        answerText: "Realizar un diagn\xF3stico para constatar que el fallo si sea
+          el acumulador"
+      - isCorrect: 0
+        answerText: no importa el orden
+    - questionText: "\xBFQu\xE9 es lo primero que se debe revisar?"
+      answers:
+      - isCorrect: 1
+        answerText: Los postes y el sujetador del acumulador al carro
+      - isCorrect: 0
+        answerText: El voltaje
+      - isCorrect: 0
+        answerText: Que los vasos tengan agua
+    - questionText: "\xBFC\xF3mo se debe checar primero el voltaje del acumulador(estado
+        del carro)?"
+      answers:
+      - isCorrect: 0
+        answerText: Con el carro apagado
+      - isCorrect: 0
+        answerText: No importa
+      - isCorrect: 1
+        answerText: Con el carro prendido
+    - questionText: "\xBFCu\xE1ntos vasos debe estar da\xF1ados para remplazar la
+        bater\xEDa?"
+      answers:
+      - isCorrect: 1
+        answerText: Solo uno
+      - isCorrect: 0
+        answerText: 3
+      - isCorrect: 0
+        answerText: Todos
+    - questionText: "\xBFQu\xE9 es lo primero que debes hacer en un cambio de acumulador?"
+      answers:
+      - isCorrect: 0
+        answerText: Prender carro
+      - isCorrect: 0
+        answerText: desconectar terminales
+      - isCorrect: 1
+        answerText: Quitar braquet y sujetador
+    - questionText: "\xBFQu\xE9 terminal se desconecta primero en un cambio de acumulador?"
+      answers:
+      - isCorrect: 0
+        answerText: Terminal negativa
+      - isCorrect: 1
+        answerText: Terminales positivas
+      - isCorrect: 0
+        answerText: No importa el orden
+    - questionText: "\xBFQu\xE9 terminal se conecta primero?"
+      answers:
+      - isCorrect: 1
+        answerText: Terminales positivas
+      - isCorrect: 0
+        answerText: Terminal negativa
+      - isCorrect: 0
+        answerText: No importa el orden
+    - questionText: "\xBFQu\xE9 es lo primero que se debe revisar?"
+      answers:
+      - isCorrect: 1
+        answerText: Los postes y el sujetador del acumulador al carro
+      - isCorrect: 0
+        answerText: El voltaje
+      - isCorrect: 0
+        answerText: Que los vasos tengan agua
+    - questionText: "\xBFQu\xE9 formato debes llenar antes de instalar la bater\xEDa?"
+      answers:
+      - isCorrect: 0
+        answerText: Modelo de los acumuladores
+      - isCorrect: 0
+        answerText: Datos del cliente
+      - isCorrect: 1
+        answerText: "P\xF3liza de garant\xEDa"
+    - questionText: "\xBFQu\xE9 es lo primero que debes hacer en la recarga de acumuladores
+        en serie?"
+      answers:
+      - isCorrect: 1
+        answerText: "Checar el nivel de carga con el volt\xEDmetro"
+      - isCorrect: 0
+        answerText: Conectar terminales
+      - isCorrect: 0
+        answerText: "Ponerles l\xEDquido a los cumuladores"
+    - questionText: "\xBFCu\xE1l es el segundo paso?"
+      answers:
+      - isCorrect: 0
+        answerText: Destapar acumulador para verificar nivel de liquido
+      - isCorrect: 1
+        answerText: Conectar terminales
+      - isCorrect: 0
+        answerText: No importa el orden
+    - questionText: "\xBFCu\xE1l es el tercer paso?"
+      answers:
+      - isCorrect: 0
+        answerText: Conectar terminales
+      - isCorrect: 1
+        answerText: "Verificar cada vaso con el hidr\xF3metro"
+      - isCorrect: 0
+        answerText: Prender el robot de carga
+    - questionText: "\xBFQu\xE9 terminal se conecta primero?"
+      answers:
+      - isCorrect: 1
+        answerText: Terminales positivas
+      - isCorrect: 0
+        answerText: Terminal negativa
+      - isCorrect: 0
+        answerText: No importa el orden
+    - questionText: "\xBFCu\xE1nto tiempo es de carga y de reposo?"
+      answers:
+      - isCorrect: 0
+        answerText: 12 de carga y 24 de reposo
+      - isCorrect: 0
+        answerText: 12 de carga y 8 de reposo
+      - isCorrect: 1
+        answerText: 8 horas de carga y 8 de reposo
+    - questionText: "\xBFQu\xE9 es lo primero que debes checar al recibir un acumulador?"
+      answers:
+      - isCorrect: 1
+        answerText: Revisar el sello de seguridad de la tapa
+      - isCorrect: 0
+        answerText: Revisar los vasos
+      - isCorrect: 0
+        answerText: "Ponerles liqu\xEDdo a los acumuladores"
+    - questionText: "\xBFC\xF3mo alargar la vida del acumulador?"
+      answers:
+      - isCorrect: 0
+        answerText: Poner agua a los acumuladores muy seguido
+      - isCorrect: 0
+        answerText: Limpiar seguido
+      - isCorrect: 1
+        answerText: "Hacer bien la sugeti\xF3n del acumulador al carro"
+    - questionText: "\xBFPara qu\xE9 se hace la rotaci\xF3n de bater\xEDa?"
+      answers:
+      - isCorrect: 1
+        answerText: Para clientes con equipo pesado
+      - isCorrect: 0
+        answerText: A cualquiera
+      - isCorrect: 0
+        answerText: A camionetas
+    - questionText: "\xBFQu\xE9 Numeros de acumuladores cambias su posici\xF3n entre
+        ellos?"
+      answers:
+      - isCorrect: 0
+        answerText: 1 y 2
+      - isCorrect: 1
+        answerText: 1 y 3
+      - isCorrect: 0
+        answerText: No importa
+  - nombre: Call Center
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 20
+    Preguntas:
+    - questionText: "\xBFCu\xE1l fue la principal raz\xF3n por la que fue creado el
+        Call Center?"
+      answers:
+      - isCorrect: 0
+        answerText: "Dar informaci\xF3n de nuestros servicios."
+      - isCorrect: 0
+        answerText: Gestionar llamadas de los distintos proveedores.
+      - isCorrect: 1
+        answerText: 'Para atender a clientes que solicitan un servicio a domicilio. '
+    - questionText: "\xBFDe qu\xE9 depender\xE1 el resultado de las llamadas?"
+      answers:
+      - isCorrect: 1
+        answerText: "De la bienvenida y calidad de informaci\xF3n que la operadora
+          de al cliente. "
+      - isCorrect: 0
+        answerText: Del humor del cliente.
+      - isCorrect: 0
+        answerText: Del tiempo que dure la llamada.
+    - questionText: "Cuando un cliente llama para solicitar informaci\xF3n sobre un
+        servicio y su primer contacto es a trav\xE9s del tel\xE9fono, el personal
+        del Call Center debe estar consciente de:"
+      answers:
+      - isCorrect: 0
+        answerText: "De c\xF3mo se ha enterado el cliente de la empresa."
+      - isCorrect: 1
+        answerText: "Que d\xE9 \xE9l o ella depende la imagen de High Battery en ese
+          momento."
+      - isCorrect: 0
+        answerText: Que su responsabilidad es responder todas las dudas del cliente.
+    - questionText: 'Si el cliente necesita factura, puede solicitarla:'
+      answers:
+      - isCorrect: 0
+        answerText: "M\xE1ximo en 24 horas."
+      - isCorrect: 0
+        answerText: El primer mes.
+      - isCorrect: 1
+        answerText: "M\xE1ximo en 12 horas."
+    - questionText: "Todos son formas de pagos a excepci\xF3n de:"
+      answers:
+      - isCorrect: 1
+        answerText: Especie.
+      - isCorrect: 0
+        answerText: Deposito.
+      - isCorrect: 0
+        answerText: "Cr\xE9dito o d\xE9bito."
+    - questionText: "En el call center pueden recibir pagos v\xEDa telef\xF3nica con
+        tarjetas de d\xE9bito o cr\xE9dito: "
+      answers:
+      - isCorrect: 0
+        answerText: Verdadero
+      - isCorrect: 1
+        answerText: 'Falso '
+    - questionText: "\xBFPara qu\xE9 sirve el apartado \u201CZona del t\xE9cnico\u201D?"
+      answers:
+      - isCorrect: 0
+        answerText: "Da informaci\xF3n sobre la zona en la que cada t\xE9cnico debe
+          trabajar. "
+      - isCorrect: 0
+        answerText: "Te dice que t\xE9cnicos se encuentran disponibles."
+      - isCorrect: 1
+        answerText: "Se podr\xE1 visualizar en cual zona se encuentra ubicado un t\xE9cnico. "
+    - questionText: "Todos son estados en los cuales se pueden encontrar los t\xE9cnicos
+        a excepci\xF3n de:"
+      answers:
+      - isCorrect: 1
+        answerText: 'Fuera de horario, cargando gasolina, tramitando. '
+      - isCorrect: 0
+        answerText: Activos, inactivos, comiendo.
+      - isCorrect: 0
+        answerText: En permiso, liquidando, haciendo inventario.
+    - questionText: "\xBFCu\xE1l es la funci\xF3n del apartado servicios por asignar?"
+      answers:
+      - isCorrect: 0
+        answerText: "Programar asignaciones a los t\xE9cnicos. "
+      - isCorrect: 1
+        answerText: "Reconocer que servicios faltan por asignarse y cuales lo est\xE1n
+          en ese momento.  "
+      - isCorrect: 0
+        answerText: 'Cotizar servicios. '
+    - questionText: "Es el significado del icono \u201Ccarrito de color verde\u201D
+        \ "
+      answers:
+      - isCorrect: 1
+        answerText: "Veh\xEDculo en servicio. "
+      - isCorrect: 0
+        answerText: 'La venta fue concretada. '
+      - isCorrect: 1
+        answerText: "El t\xE9cnico se est\xE1 moviendo. "
+    - questionText: 'Son los tiempos promesas en los que los servicios Red y normal
+        deben llegar:'
+      answers:
+      - isCorrect: 1
+        answerText: 25 minutos normal y 15 minutos red.
+      - isCorrect: 0
+        answerText: '30 minutos normal y 45 minutos red. '
+      - isCorrect: 1
+        answerText: 45 minutos normal y 30 minutos red.
+    - questionText: "\xBFCu\xE1l m\xE9todo de pago necesita comprobaci\xF3n?"
+      answers:
+      - isCorrect: 1
+        answerText: 'Transferencia bancaria '
+      - isCorrect: 0
+        answerText: "Tarjeta de d\xE9bito o cr\xE9dito "
+      - isCorrect: 0
+        answerText: Efectivo
+    - questionText: "\xBFA trav\xE9s de que medio se comprueba la transferencia bancaria?"
+      answers:
+      - isCorrect: 0
+        answerText: "Tel\xE9fono"
+      - isCorrect: 1
+        answerText: 'Correo '
+      - isCorrect: 0
+        answerText: Whatsapp
+    - questionText: "\xBFCu\xE1l de estas no se dice cuando se despide del cliente?"
+      answers:
+      - isCorrect: 0
+        answerText: Estamos a sus ordenes
+      - isCorrect: 1
+        answerText: Gracias por comprar con nosotros
+      - isCorrect: 0
+        answerText: "Que tenga un excelente d\xEDa/tarde/noche."
+    - questionText: Actitud esperada con la que deben atenderse las llamadas.
+      answers:
+      - isCorrect: 1
+        answerText: Amable
+      - isCorrect: 0
+        answerText: Alegre
+      - isCorrect: 0
+        answerText: Condescendiente
+  - nombre: Productos
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 20
+    Preguntas:
+    - questionText: "\xBFAntes de recomendar un acumulador a cualquier cliente, que
+        aspecto se debe tener en cuenta?"
+      answers:
+      - isCorrect: 0
+        answerText: La disponibilidad de los productos.
+      - isCorrect: 0
+        answerText: 'Si el cliente tiene prefiere pagar en efectivo o en tarjeta. '
+      - isCorrect: 1
+        answerText: "Si la bater\xEDa que ocupa el cliente es arranque o de ciclado
+          profundo."
+    - questionText: "\xBFQu\xE9 significa que una bater\xEDa posea mayor amperaje?"
+      answers:
+      - isCorrect: 1
+        answerText: 'Mayor tiempo de vida. '
+      - isCorrect: 0
+        answerText: Potencia.
+      - isCorrect: 0
+        answerText: "La eficiencia del sistema el\xE9ctrico."
+    - questionText: "Este tipo de acumuladores cuentan con celdas de espiral, electrolito
+        absorbido, 99,9% plomo puro, aplicaciones en bater\xEDas de arranque y ciclado
+        profundo, resistencia a las vibraciones extremas, mayor resistencia a la corrosi\xF3n
+        y se pueden colocar en cualquier posici\xF3n."
+      answers:
+      - isCorrect: 0
+        answerText: "Productos Premium, Bater\xEDas Optima, Bater\xEDa LTH AGM"
+      - isCorrect: 0
+        answerText: 'Heavy Duty y Full Power, Servicio pesado '
+      - isCorrect: 1
+        answerText: Productos Value,Terminales sure shield, Tapones Top Guard, Material
+          activo con ADitech
+    - questionText: "Ofrecen m\xE1s capacidad, cuentan con mayor tiempo de vida bajo
+        las aplicaciones de arranque y ciclado profundo, los a\xF1os de garant\xEDa
+        son de dos a tres a\xF1os al 100%."
+      answers:
+      - isCorrect: 0
+        answerText: "Bater\xEDa LTH AGM"
+      - isCorrect: 1
+        answerText: "Bater\xEDas Optima"
+      - isCorrect: 0
+        answerText: Productos Premium
+    - questionText: "Cuenta con la tecnolog\xEDa m\xE1s avanzada en placas planas,
+        plomo-acido, para soportar las altas demandas el\xE9ctricas de los veh\xEDculos
+        actuales."
+      answers:
+      - isCorrect: 0
+        answerText: "Bater\xEDas Optima"
+      - isCorrect: 0
+        answerText: Productos Premium
+      - isCorrect: 1
+        answerText: "Bater\xEDa LTH AGM"
+    - questionText: "Es un acumulador con mayor rendimiento, gracias a su poder de
+        ciclado extremo, esta bater\xEDa, es ideal para unidades de operaci\xF3n continua
+        y arranques constantes."
+      answers:
+      - isCorrect: 1
+        answerText: Heavy Duty y Full Power
+      - isCorrect: 0
+        answerText: LTH Servicio pesado
+      - isCorrect: 0
+        answerText: "Bater\xEDa LTH AGM"
+    - questionText: 'Producto que evita que alguna chispa o fuego entren al acumulador,
+        brindando asi mayor seguridad '
+      answers:
+      - isCorrect: 1
+        answerText: 'Tapones Top Guard '
+      - isCorrect: 0
+        answerText: Termianles Sure Seal
+      - isCorrect: 0
+        answerText: ' Material activo con aditec '
+    - questionText: "\xBFCu\xE1les son las funciones de un acumulador de energ\xEDa
+        qu\xEDmica?"
+      answers:
+      - isCorrect: 0
+        answerText: "Mantiene funcionado las partes mec\xE1nicas del veh\xEDculo,
+          estabiliza la temperatura, lubrica las piezas."
+      - isCorrect: 1
+        answerText: "Proporciona el motor de arranque, brinda potencia adicional requerida
+          y act\xFAa como estabilizador de voltaje en el sistema el\xE9ctrico. "
+      - isCorrect: 0
+        answerText: "Brindar energ\xEDa al sistema el\xE9ctrico, purificar los filtros,
+          dar estabilizaci\xF3n a los frenos.\t "
+    - questionText: "\xBFQu\xE9 funci\xF3n tiene la lineaci\xF3n patentada AST2? "
+      answers:
+      - isCorrect: 0
+        answerText: "Funciona como conductor de energ\xEDa."
+      - isCorrect: 1
+        answerText: "Reduce la corrosi\xF3n, incluso en calor extremo. "
+      - isCorrect: 0
+        answerText: "Aumenta la eficiencia del sistema el\xE9ctrico."
+    - questionText: "\xBFDe qu\xE9 material est\xE1n hechos los materiales pl\xE1sticos
+        del acumulador?"
+      answers:
+      - isCorrect: 1
+        answerText: De polipropileno.
+      - isCorrect: 0
+        answerText: 'De polihidroxialcanoatos. '
+      - isCorrect: 0
+        answerText: De poliestireno.
+    - questionText: "Es un elemento compuesto por 65% agua y 35% \xE1cido sulf\xFArico
+        que permite la producci\xF3n de corriente el\xE9ctrica. "
+      answers:
+      - isCorrect: 0
+        answerText: "Polip\xE9ptido."
+      - isCorrect: 0
+        answerText: 'Hidrogeno. '
+      - isCorrect: 1
+        answerText: Electrolito.
+    - questionText: "\xBFCu\xE1l es la funci\xF3n de los separadores long-life?"
+      answers:
+      - isCorrect: 0
+        answerText: "Mantienen limpio el sistema y mejoran el rendimiento del veh\xEDculo."
+      - isCorrect: 1
+        answerText: "Resisten perforaciones y mejoran la circulaci\xF3n del \xE1cido,
+          reduciendo el calentamiento."
+      - isCorrect: 0
+        answerText: "Regulan la energ\xEDa y protegen el cableado."
+    - questionText: 'Son cualidades de la Rejilla Power Frame, excepto:  '
+      answers:
+      - isCorrect: 1
+        answerText: Regula la temperatura.
+      - isCorrect: 0
+        answerText: "Maximiza la conductibilidad el\xE9ctrica."
+      - isCorrect: 0
+        answerText: "Mayor adhesi\xF3n del material activo."
+  - nombre: Venta de optima
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 20
+    Preguntas:
+    - questionText: "Aun, si est\xE1s muy ocupado tu deber con el cliente en el proceso
+        de atenci\xF3n es:"
+      answers:
+      - isCorrect: 0
+        answerText: Dejar todas tus labores y esperar la pregunta de cualquier cliente
+      - isCorrect: 0
+        answerText: Seguir en tus labores sin importar quien entre
+      - isCorrect: 1
+        answerText: "Dar los buenos d\xEDas/tardes/noches al entrar el cliente y atenderlo"
+    - questionText: "\xBFEs importante presentarnos con nuestros nombre al cliente?"
+      answers:
+      - isCorrect: 1
+        answerText: Si
+      - isCorrect: 0
+        answerText: No
+      - isCorrect: 0
+        answerText: Es Opcional
+    - questionText: 'Cuando no podemos resolver en ese momento el problema del cliente
+        debemos:'
+      answers:
+      - isCorrect: 1
+        answerText: "Mandarlo con los t\xE9cnicos para que revisen el aut\xF3movil
+          o bater\xEDa"
+      - isCorrect: 0
+        answerText: Pedirle al cliente que vuelva en otro momento
+      - isCorrect: 0
+        answerText: Investigar lo que debemos hacer para resolver su problema
+    - questionText: "\xBFEn qu\xE9 momento debemos hacerle una nota o factura al cliente?"
+      answers:
+      - isCorrect: 0
+        answerText: "Antes de mandarlo con los t\xE9cnicos"
+      - isCorrect: 0
+        answerText: Desde que el cliente lo pida
+      - isCorrect: 1
+        answerText: Cuando vuelve con los datos y los requisitos indicados
+    - questionText: "\xBFQu\xE9 otros servicios debemos ofrecer?"
+      answers:
+      - isCorrect: 0
+        answerText: "Limpieza del autom\xF3vil"
+      - isCorrect: 1
+        answerText: Hacerle saber los diferentes tipos de gamas y productos con los
+          que contamos
+      - isCorrect: 0
+        answerText: Ninguno
+    - questionText: "\xBFCu\xE1l es el documento que debemos cuidar que este perfectamente
+        lleno"
+      answers:
+      - isCorrect: 1
+        answerText: "P\xF3liza"
+      - isCorrect: 0
+        answerText: Nota
+      - isCorrect: 0
+        answerText: Factura
+  allAnswerData: []

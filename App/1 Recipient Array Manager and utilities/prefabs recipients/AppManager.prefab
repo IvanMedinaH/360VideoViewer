@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1820060889824722}
+  m_IsPrefabAsset: 1
+--- !u!1 &1327337504892870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4823144705744384}
+  m_Layer: 0
+  m_Name: NodeParent
+  m_TagString: Parent
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1820060889824722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4253656201073108}
+  - component: {fileID: 114065982624207338}
+  - component: {fileID: 114539903654681230}
+  - component: {fileID: 114199174931185982}
+  - component: {fileID: 114966947685600378}
+  m_Layer: 0
+  m_Name: AppManager
+  m_TagString: AppManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4253656201073108
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820060889824722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4823144705744384}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4823144705744384
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1327337504892870}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4253656201073108}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114065982624207338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820060889824722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71c23c53c8699546ba4e1327f656d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Videos: []
+  Selected_player360: {fileID: 0}
+  amountOfVideos: 0
+  Local_videoClips: []
+  Network_videoClips: []
+  local_folder: 360videos/
+  Network_folder: 
+--- !u!114 &114199174931185982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820060889824722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed6f8c07b8bbf7f439126d7ad073444d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  children: []
+  Parent: {fileID: 1327337504892870}
+  attribute_Obj: []
+--- !u!114 &114539903654681230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820060889824722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5eb727e7bd71264d98cbe70a3cbc95d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantCubes: 0
+  cubes: []
+  cubePrefab: {fileID: 1533253524581652, guid: 0172ad8d8c9df67409400ae38815681a, type: 2}
+  canCreateCubes: 0
+  isArrayCreated: 0
+  cubePosOffset: {x: 0, y: 0, z: 0}
+  Selected: {fileID: 0}
+  Highlighted: {fileID: 0}
+  posSelected: 0
+  CubeParent: {fileID: 1327337504892870}
+  childs: []
+  attribute: []
+--- !u!114 &114966947685600378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820060889824722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7cccef99daa9d4eaa411caf3035214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPosition: 0
+  array: {fileID: 114539903654681230}
+  canLerpPosition: 0
+  isMaterialSelectedOn: 0

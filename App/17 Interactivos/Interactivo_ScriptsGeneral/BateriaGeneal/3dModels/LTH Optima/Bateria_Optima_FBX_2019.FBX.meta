@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: fb940b5e29720044780cd82f4aa6af3b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cuerpo_BO
+    100004: Etiqueta_Optima
+    100006: Tapa_BO
+    100008: Tapa_BO_Bisagra_Negativo
+    100010: Tapa_BO_Bisagra_Positivo
+    100012: Tapa_BO_Cuerpo_Poste_Negativo
+    100014: Tapa_BO_Cuerpo_Poste_Positivo
+    100016: Tapa_BO_HD_Seguro_Negro
+    100018: Tapa_BO_HI_Seguro_Negro
+    100020: Tapa_BO_Hueco_Derecho
+    100022: Tapa_BO_Hueco_Izquierdo
+    100024: Tapa_BO_Tapon_Negativo
+    100026: Tapa_BO_Tapon_Positivo
+    400000: //RootNode
+    400002: Cuerpo_BO
+    400004: Etiqueta_Optima
+    400006: Tapa_BO
+    400008: Tapa_BO_Bisagra_Negativo
+    400010: Tapa_BO_Bisagra_Positivo
+    400012: Tapa_BO_Cuerpo_Poste_Negativo
+    400014: Tapa_BO_Cuerpo_Poste_Positivo
+    400016: Tapa_BO_HD_Seguro_Negro
+    400018: Tapa_BO_HI_Seguro_Negro
+    400020: Tapa_BO_Hueco_Derecho
+    400022: Tapa_BO_Hueco_Izquierdo
+    400024: Tapa_BO_Tapon_Negativo
+    400026: Tapa_BO_Tapon_Positivo
+    2100000: 07 - Default
+    2100002: Tapa_BO
+    2100004: Tapa_BO_Bosagra_positivo
+    2100006: Tapa_BO_detalles
+    2100008: LTH_BO_Negro_Opaco
+    2100010: Tapa_BO_Bosagra_negativo
+    2100012: LTH_Tapon_rojo_opaco
+    2100014: Etiqueta_optima
+    2300000: Cuerpo_BO
+    2300002: Etiqueta_Optima
+    2300004: Tapa_BO
+    2300006: Tapa_BO_Bisagra_Negativo
+    2300008: Tapa_BO_Bisagra_Positivo
+    2300010: Tapa_BO_Cuerpo_Poste_Negativo
+    2300012: Tapa_BO_Cuerpo_Poste_Positivo
+    2300014: Tapa_BO_HD_Seguro_Negro
+    2300016: Tapa_BO_HI_Seguro_Negro
+    2300018: Tapa_BO_Hueco_Derecho
+    2300020: Tapa_BO_Hueco_Izquierdo
+    2300022: Tapa_BO_Tapon_Negativo
+    2300024: Tapa_BO_Tapon_Positivo
+    3300000: Cuerpo_BO
+    3300002: Etiqueta_Optima
+    3300004: Tapa_BO
+    3300006: Tapa_BO_Bisagra_Negativo
+    3300008: Tapa_BO_Bisagra_Positivo
+    3300010: Tapa_BO_Cuerpo_Poste_Negativo
+    3300012: Tapa_BO_Cuerpo_Poste_Positivo
+    3300014: Tapa_BO_HD_Seguro_Negro
+    3300016: Tapa_BO_HI_Seguro_Negro
+    3300018: Tapa_BO_Hueco_Derecho
+    3300020: Tapa_BO_Hueco_Izquierdo
+    3300022: Tapa_BO_Tapon_Negativo
+    3300024: Tapa_BO_Tapon_Positivo
+    4300000: Cuerpo_BO
+    4300002: Tapa_BO
+    4300004: Tapa_BO_Bisagra_Positivo
+    4300006: Tapa_BO_Cuerpo_Poste_Negativo
+    4300008: Tapa_BO_Cuerpo_Poste_Positivo
+    4300010: Tapa_BO_Hueco_Derecho
+    4300012: Tapa_BO_HD_Seguro_Negro
+    4300014: Tapa_BO_Hueco_Izquierdo
+    4300016: Tapa_BO_HI_Seguro_Negro
+    4300018: Tapa_BO_Bisagra_Negativo
+    4300020: Tapa_BO_Tapon_Negativo
+    4300022: Tapa_BO_Tapon_Positivo
+    4300024: Etiqueta_Optima
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

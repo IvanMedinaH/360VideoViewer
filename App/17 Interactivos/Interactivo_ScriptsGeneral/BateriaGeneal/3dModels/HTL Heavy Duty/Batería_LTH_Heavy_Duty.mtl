@@ -1,0 +1,64 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 21.03.2019 17:11:02
+
+newmtl Shader_Plastico_negro_Cuerpo_LTH_Heavy_Duty
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0078 0.0078
+	Kd 0.0078 0.0078 0.0078
+	Ks 0.3780 0.3780 0.3780
+	Ke 0.0000 0.0000 0.0000
+	map_bump C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_Heavy_Duty\Normal_Map_Heavy_duty.jpg
+	bump C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_Heavy_Duty\Normal_Map_Heavy_duty.jpg
+
+newmtl Shader_Plastico_negro_tapa_Heavy_Duty
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0078 0.0078
+	Kd 0.0078 0.0078 0.0078
+	Ks 0.3780 0.3780 0.3780
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Shader_Plastico_Negro_Manija_Heavy_Duty
+	Ns 18.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0039 0.0039 0.0039
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.1170 0.1170 0.1170
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Shader_tapa_seguro_negro_Heavy_Duty
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0196 0.0196 0.0196
+	Kd 0.0196 0.0196 0.0196
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Shader_tapa_seguro_rojo_Heavy_Duty
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4000 0.0196 0.0196
+	Kd 0.4000 0.0196 0.0196
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000

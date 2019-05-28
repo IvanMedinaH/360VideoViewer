@@ -1,0 +1,117 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 15.03.2019 17:01:47
+
+newmtl Cuerpo_Bateria_LTH_AGM_Desarmable
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3569 0.3569 0.3569
+	Kd 0.3569 0.3569 0.3569
+	Ks 0.3780 0.3780 0.3780
+	Ke 0.0000 0.0000 0.0000
+	map_bump C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM\Normal Map\Normal map.jpg
+	bump C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM\Normal Map\Normal map.jpg
+
+newmtl etiqueta
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM\Normal Map\Etiqueta.jpg
+	map_Kd C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM\Normal Map\Etiqueta.jpg
+
+newmtl Tapa_Bateria_LTH_AGM_Desarmable
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3569 0.3569 0.3569
+	Kd 0.3569 0.3569 0.3569
+	Ks 0.3780 0.3780 0.3780
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Papel_Bateria_LTH_AGM_Desarmable
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Metales_Bateria_LTH_AGM_Desarmable
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4667 0.4667 0.4667
+	Kd 0.4667 0.4667 0.4667
+	Ks 1.0890 1.0890 1.0890
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Pastas_Bateria_LTH_AGM_Desarmable
+	Ns 60.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7373 0.4784 0.0275
+	Kd 0.7373 0.4784 0.0275
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Rejilla_Bateria_LTH_AGM_Desarmable
+	Ns 60.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3451 0.3451 0.3451
+	Kd 0.3451 0.3451 0.3451
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM_Desarmable\UVS\Rejilla_Alfa.png
+	map_Kd C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM_Desarmable\UVS\Rejilla_Alfa.png
+	map_d C:\Users\Dalton_Alan\Documents\3dsMax\scenes\LTH_AGM_Desarmable\UVS\Rejilla_Alfa.png
+
+newmtl Manijas_Bateria_LTH_AGM_Desarmable
+	Ns 18.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0039 0.0039 0.0039
+	Kd 0.0039 0.0039 0.0039
+	Ks 0.1170 0.1170 0.1170
+	Ke 0.0000 0.0000 0.0000
+
+newmtl 08___Default
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4000 0.0196 0.0196
+	Kd 0.4000 0.0196 0.0196
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000

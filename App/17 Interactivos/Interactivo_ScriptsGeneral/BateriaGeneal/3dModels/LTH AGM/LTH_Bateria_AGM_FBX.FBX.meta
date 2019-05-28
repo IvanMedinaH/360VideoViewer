@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 412b89b116f939647b0a6d7b8deb05f6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Derecha
+    100002: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Izquierda
+    100004: Cuerpo_Bateria_LTH_AGM_Etiqueta
+    100006: Cuerpo_Bateria_LTH_AGM_Seguro Tapa
+    100008: Cuerpo_Bateria_LTH_AGM_Tapa
+    100010: Cuerpo_Bateria_LTH_AGM_Tapon_Negativo
+    100012: Cuerpo_Bateria_LTH_AGM_Tapon_Positivo
+    100014: //RootNode
+    400000: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Derecha
+    400002: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Izquierda
+    400004: Cuerpo_Bateria_LTH_AGM_Etiqueta
+    400006: Cuerpo_Bateria_LTH_AGM_Seguro Tapa
+    400008: Cuerpo_Bateria_LTH_AGM_Tapa
+    400010: Cuerpo_Bateria_LTH_AGM_Tapon_Negativo
+    400012: Cuerpo_Bateria_LTH_AGM_Tapon_Positivo
+    400014: //RootNode
+    2100000: Shader_Plastico_gris_cuerpo_AMG
+    2100002: Shader_Plastico_gris_TAPA_AMG
+    2100004: LTH_Plastico_Negro_AGM
+    2100006: LTH_Plastico_Negro_tapaseguro_AGM
+    2100008: LTH_Plastico_rojo_tapaseguro_AGM
+    2100010: LTH_etiqueta_AGM
+    2300000: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Derecha
+    2300002: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Izquierda
+    2300004: Cuerpo_Bateria_LTH_AGM_Etiqueta
+    2300006: Cuerpo_Bateria_LTH_AGM_Seguro Tapa
+    2300008: Cuerpo_Bateria_LTH_AGM_Tapa
+    2300010: Cuerpo_Bateria_LTH_AGM_Tapon_Negativo
+    2300012: Cuerpo_Bateria_LTH_AGM_Tapon_Positivo
+    2300014: //RootNode
+    3300000: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Derecha
+    3300002: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Izquierda
+    3300004: Cuerpo_Bateria_LTH_AGM_Etiqueta
+    3300006: Cuerpo_Bateria_LTH_AGM_Seguro Tapa
+    3300008: Cuerpo_Bateria_LTH_AGM_Tapa
+    3300010: Cuerpo_Bateria_LTH_AGM_Tapon_Negativo
+    3300012: Cuerpo_Bateria_LTH_AGM_Tapon_Positivo
+    3300014: //RootNode
+    4300000: Cuerpo_Bateria_LTH_AGM
+    4300002: Cuerpo_Bateria_LTH_AGM_Tapa
+    4300004: Cuerpo_Bateria_LTH_AGM_Base_Tapa_Manija_Derecha
+    4300006: Cuerpo_Bateria_LTH_AGM_Seguro Tapa
+    4300008: Cuerpo_Bateria_LTH_AGM_Tapon_Negativo
+    4300010: Cuerpo_Bateria_LTH_AGM_Etiqueta
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

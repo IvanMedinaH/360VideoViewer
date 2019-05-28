@@ -1,0 +1,65 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 21.03.2019 16:45:11
+
+newmtl LTH_Bateria_Moto_Cuerpo_Blanco
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4392 0.4392 0.4392
+	Kd 0.4392 0.4392 0.4392
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000
+
+newmtl LTH_Bateria_Moto_TAPA_Negro
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0078 0.0078 0.0078
+	Kd 0.0078 0.0078 0.0078
+	Ks 0.7380 0.7380 0.7380
+	Ke 0.0000 0.0000 0.0000
+
+newmtl LTH_Bateria_Moto_Seguros_Rojos
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4000 0.0196 0.0196
+	Kd 0.4000 0.0196 0.0196
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000
+
+newmtl LTH_Bateria_Moto_Poste_Metal
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.4392 0.4392 0.4392
+	Kd 0.4392 0.4392 0.4392
+	Ks 0.7380 0.7380 0.7380
+	Ke 0.0000 0.0000 0.0000
+
+newmtl LTH_Bateria_Moto_Etiqueta
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Dalton_Alan\Documents\3dsMax\export\LTH_MOTO\Etiqueta_prueba.png
+	map_Kd C:\Users\Dalton_Alan\Documents\3dsMax\export\LTH_MOTO\Etiqueta_prueba.png
+	map_d C:\Users\Dalton_Alan\Documents\3dsMax\export\LTH_MOTO\Etiqueta_prueba.png
